@@ -1,0 +1,12 @@
+Note: if you have Windows Home edition you first need to enable gpedit : https://www.itechtics.com/enable-gpedit-windows-10-home
+
+1. Start 'Local Group Policy Editor', you can do this by pressing 'start' and typing 'gpedit'
+2. Navigate to Windows Settings -> Security Settings -> Local Policies -> User Rights Assignment
+3. 'User Rights Assignment' will be on the left side panel, click on it and more options will appear on the right side panel
+4. Find 'Lock Pages In Memory' and double click on it
+5. Click on 'Add User Or Group' 
+6. You should add the user/s you use on your system. The easiest way is to list them then select the one/s you want.
+7. Click on 'Advanced' then on 'Find Now'. In the search results double click on the user you want to add.
+8. Reboot computer
+
+If you did everything right, SRBMiner-Multi should show on initialization that Huge-pages are enabled.
